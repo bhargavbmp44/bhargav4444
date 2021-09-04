@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+	
+	<title></title>
+	<style type="text/css">
+		.tablink {
+  						background-color: #ff0000;
+  						border: none;
+  						padding-right: 9px;
+  						padding-left: 9px;
+  						margin: 0px;
+  						padding-top: 12px;
+  						padding-bottom: 10px;
+  						cursor: pointer;
+  						color: white;
+
+
+						 
+						 }
+		.tablink:hover {
+  										background-color:#ff8080;
+									 }	
+									.b{
+                        background-color:#ff0000;
+
+									 }
+				#navbar {
+  overflow: hidden;
+ 
+}
+
+
+
+
+
+
+.tabcontent{
+        border-radius: 5px;
+}
+ .border{
+ 	         border: 1px solid white;
+          background-color: #E5E4E2;
+          border-radius: 5px;
+          font-size: 17px; 
+}
+ .q{
+    font-weight: bold;
+ }
+ .w{
+      background-color: #b0e0e6	;
+      color: blue;
+ }
+ .p{
+      background-color: #d8bfd8;
+ }
+ .m{
+    
+    border-radius: 4px;
+    color: green;
+    font-size:22px ;
+ }
+ .s{
+     border: 1px red solid;
+     background-color: #f0e68c;
+     margin-right: 7px;
+     margin-left: -9px;
+     border-radius: 9px;
+     font-size: 16px;
+     color: black;
+     padding: 5px;
+ }
+.z{
+    background-color: #faf0e6	;
+    border:1px solid white ;
+    border-radius: 5px;
+}
+.g{
+margin-left: 180px;
+margin-top: 40px;
+font-size: 22px;
+color: blue;
+
+
+}
+.h{
+  margin-left: -750px;
+margin-top: 40px;
+margin-bottom: 10px;
+
+
+}
+.btn{
+  background-color:lightskyblue;
+
+}
+.u{
+   border: 1px solid red;
+   background-color: ;
+}
+.v{
+     background-color: white;
+     margin-left:-8px ;
+     margin-right: 8px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     border-radius: 1px solid red;
+     border-radius: 5px;
+     color: black;
+     font-size: 15px;
+
+
+}
+.f{
+     border: none;
+     border-bottom: 3px solid limegreen;
+     
+}
+.ab{
+margin-top: 30px;
+margin-left:100px ;
+margin-bottom: 30px;
+font-size: 20px;
+
+}
+.bc{
+margin-top: 30px;
+font-size: 20px;
+margin-bottom: 30px;
+
+}
+.o{
+	 background-color: white;
+     margin-left:-8px ;
+     margin-right: 8px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     border-radius: 1px solid red;
+     border-radius: 5px;
+     color: black;
+     font-size: 15px;
+
+}
+.qw{
+	background-color: #17A589 ;
+	border: 1px solid white;
+	border-radius: 10px;
+	font-size: 1px;
+	padding-left: 20px;
+	color:  #DFFF00;
+}
+.xc{
+   font-size: 20px;
+   margin-top: 7px;
+}
+.lk{
+	background-color: #EBDEF0;
+	margin-top: 10px;
+	margin-left: -10px;
+	margin-right: 12px;
+	border-radius: 10px;
+	padding-left:130px ;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	margin-bottom: 12px;
+
+
+
+}
+.ft{
+  border: none;
+  border-bottom: 3px solid red;
+}
+
+.df{
+	border-radius: 10px;
+	border-color: green;
+
+}
+hr{
+ background-color: green;
+}
+  
+
+.bm{
+  background-color: #58D68D ;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin-left: 150px;
+  margin-right: 30px;
+  font-size: 16px;
+
+}
+.bv{
+   background-color: #58D68D ;
+   font-size: 16px;
+   border: 2px solid black;
+}
+.io{
+border-color: green;
+border-radius: 10px;
+border-width: 2px;
+}
+h5{
+   color: #5DADE2 ;
+
+}
+.qb{
+	background-color: #0B0C10;
+	border: 1px solid white;
+	border-radius: 10px;
+	font-size: 1px;
+	padding-left: 20px;
+	color:  #66FCF1;
+}
+.xb{
+   font-size: 20px;
+   margin-top: 7px;
+}
+.lb{
+	background-color: #EBDEF0;
+	margin-top: 10px;
+	margin-left: -10px;
+	margin-right: 12px;
+	border-radius: 10px;
+	padding-left:130px ;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	margin-bottom: 12px;
+
+
+
+
+}
+.vc{
+   color: #b8860b;
+}
+.em{
+    background-color: 	#bdb76b;
+     border-radius: 5px;
+  border: 2px solid black;
+  margin-left: 250px;
+  margin-right: 30px;
+  font-size: 16px;
+}
+.jb{
+  background-color: #bdb76b	 ;
+   font-size: 16px;
+   border: 2px solid black;
+}
+.gt{
+	border: 1px solid black;
+	border-radius: 5px;
+	
+}
+.qwe{
+	color: red;
+	font-size: ;
+}
+.wer{
+
+border-color: blue;
+font-size: 15px;
+}
+.qq{
+	background-color: #7a2048;
+	border: 1px solid white;
+	border-radius: 10px;
+	font-size: 1px;
+	padding-left: 20px;
+	color:  #ffc13b;
+}
+.xx{
+   font-size: 20px;
+   margin-top: 7px;
+}
+.ll{
+	background-color: #c6d7eb;
+	margin-top: 10px;
+	margin-left: -10px;
+	margin-right: 12px;
+	border-radius: 10px;
+	padding-left:130px ;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+.gg{
+color: #322514;
+}
+
+
+
+
+ 
+
+	</style>
+</head>
+<body>
+<div class="header">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-2">
+				<img src="image\EPFO_logo_shadow.jpg">
+		 	</div>
+			<div class="col-lg ">
+				<ul class="list-inline">
+					<li class="list-inline-item"><h1 class="text-primary mt-4">EPF</h1></li>
+					<li class="list-inline-item"><h1 class="text-danger mt-4">i</h1></li>
+					<li class="list-inline-item"><h1 class="text-primary mt-4">Grievance Management System</h1></li>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+	<div class="b sticky-top"  >
+		<div class="container" id="navbar"  >
+             
+
+           <button class="tablink "  type="button" class="btn " data-toggle="tooltip " data-placement="bottom " id="defaultOpen" title="Home page"  onclick="openPage('Home', this, '#ff8080')" ><h6><i class="fa fa-home" aria-hidden="true"></i>Home</h6></button>
+  
+
+
+					<button class="tablink " type="button" class="btn " data-toggle="tooltip " data-placement="bottom " title="Click here to register grievance"  onclick="openPage('Register Grievance', this, '#ff8080')" ><h6><i class="fa fa-address-book-o" aria-hidden="true"></i> Register Grievance</h6></button>
+
+
+					<button class="tablink " type="button" class="btn " data-toggle="tooltip " data-placement="bottom "  title="Click here to send reminder"  onclick="openPage('Send Reminder', this, '#ff8080')"><h6><i class="fa fa-bell-o" aria-hidden="true"></i> Send Reminder</h6></button>
+
+
+					<button class="tablink " type="button" class="btn " data-toggle="tooltip " data-placement="bottom "  title="click here to view status"  onclick="openPage('View status', this, '#ff8080')"><h6><i class="fa fa-eye" aria-hidden="true"></i> View Status</h6></button> 
+
+						<button class="tablink " type="button" class="btn " data-toggle="tooltip " data-placement="bottom "  title="Click here to view status"  onclick="openPage('Upload Grievance Document', this, '#ff8080')"><h6><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Upload Grievance Document</h6></button>
+
+					
+				
+		</div>
+		
+	</div><br>
+	       
+					<div class="container">
+                 
+					  <div id="Home" class="tabcontent bg-warning p-2 pt-3">
+                    
+
+								<h5> <i class="fa fa-info-circle " aria-hidden="true"></i>
+                About EPFIGMS</h5>
+              <div class="border pt-3 pl-2 pr-2">
+                 	<b>EPFiGMS is a customised portal of EPFO with an aim to redress grievances for the services provided by EPFO. Grievances can be lodged at any place and will land in concerned office to which the grievances pertain. Grievances can be sent to Head office at New Delhi or to the field offices now 135 across the country.</b>
+                 	<br><br><em><h6><b>
+                 	The revamped EPFiGMS 2.0 is available with several advanced features, most important being:-</b></em></h6><br>
+                <div class="row">
+                 		<div class="col-6">
+                 			<i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Grievance can be lodged by PF member, EPS Pensioner, Employer and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Others<br>
+                 			<i class="fa fa-arrow-right" aria-hidden="true"></i>  &nbsp;OTP verification<br><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Online lodging of grievance/complaint based on UAN<br><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;UAN integrated with master data base of EPFO resulting in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identification of EPF office for redress of grievance<br><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp; Grievance can be lodged for multiple PF numbers available in UAN<br><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;PPO number validation/integration (for EPS pensioners) with &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;centralised base of EPFO
+                 		<br><i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;PPO number validation/integration (for EPS pensioners) with &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;centralised data base of EPFO
+                 		
+
+
+
+                 		 </div>
+
+
+
+
+
+                 		<div class="col-6">
+                 			<i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Facility to send reminder for pending grievance<br>
+                 			<i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;View current status of grievance<br>
+                 			<i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Facility to provide feedback on redress of grievance<br>
+                 			<i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Comprehensive categorization for identifying the grievance prone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;areas<br>
+                 			<i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;Facility to upload more than one grievance document<br>
+                 			<i class="fa fa-arrow-right" aria-hidden="true"></i> &nbsp;"EPFiGMS is available in UMANG. Please lodge your grievances using &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UMANG Mobile Application and select EPFO Services"<br>
+                 			
+                 		</div>
+                </div><br><div class="q">
+                Further, once a grievance is registered, system generates a unique registration number and auto generates acknowledgement through SMS & email. There is ease of registration of grievance and faster redressal after revamp. The interface is now bilingual.</div>
+                <br><div class="w">"EPFO is working hard to improve the service delivery. Kindly give your valuable feedback with respect to registering your grievance on the EPFiGMS Portal and your feedback regarding your satisfaction with respect to resolution of your grievance".</div>
+              </div>
+
+
+             </div>
+
+           
+              
+
+				        <div id="Register Grievance" class="tabcontent z">
+								  		  <div class="m pt-3 pl-3">
+								  		  	 <i class="fa fa-registered" aria-hidden="true"></i> REGISTRE GRIEVANCE 
+								  		  	 <br><hr>
+								  		  	    <div class="s">
+								  		  	    	<i class="fa fa-info-circle" aria-hidden="true"></i> &nbsp;For Speedy redress of your grievance, please select the appropriate Status if you are first time join in grievance management system so you click on sign up and you are second time and do you remember username and password so you click on login
+								  		  	    </div>
+								  		  	    		<div class="row">
+								  		  	    			<div class="col  g">
+								  		  	    				Status &nbsp;:
+
+								  		  	    				
+								  		  	    			</div>
+								  		  	    			<div class="col h">
+								  		  	    				<button type="button" class="btn btn-info"><a href="Login.html">LOGIN</a></button>&nbsp;&nbsp;&nbsp;
+								  		  	    				<button type="button" class="btn btn-info "><a href="sign up.html">SIGN UP</a></button>
+								  		  	    				
+								  		  	    			</div>
+								  		  	    			
+								  		  	    		</div><br><br>
+												</div>
+								</div>
+
+
+
+
+
+
+								<div id="Send Reminder" class="tabcontent">
+									<div class="qw">
+										<h6 class="xc"><i class="fa fa-share" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;Send Reminder Form</h6>
+										<div class="lk">
+											  
+											  <label for="email"><h5 class="text-primary">Register Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</h5> </label>
+													    <input type="text" placeholder="Enter Email" name="email" id="email" class="df" required><br><hr><br>
+
+													    <label for="psw" ><h5 class="text-primary">Grievance Password&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</h5> </label>
+													    <input type="password" class="df" placeholder=" Password" name="psw-repeat" id="psw-repeat" required>
+													    <br><hr><br>
+
+													    <label for="psw-repeat"><h5 class="text-primary">Email Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></label>
+													    <input type="password" class="df" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br><hr>
+
+													     <label for="psw-repeat"><h5 class="text-primary">Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</h5></label>
+													   <textarea id="w3review" class="io" placeholder="add to Description" name="w3review" rows="2" cols="25"></textarea><br><br><br>
+                             
+                            <input type="reset" class="btn bm" value="RESET"> 
+                            
+
+                            <input type="submit" class="btn bv" value="SUBMIT"> 
+                            
+											    
+												
+											</div>
+										</div>
+										
+									</div>
+										
+								
+
+												 
+													  	
+													  		
+													  	
+ 								
+
+
+
+
+
+
+
+
+								<div id="View status" class="tabcontent">
+								            <div class="qb">
+										<h6 class="xb"><i class="fa fa-share" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;View Status Form</h6>
+										<div class="lb">
+											  
+											  <label for="email"><h5 class="vc">Register Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</h5> </label>
+													    <input type="text" placeholder="Enter Email" name="email" id="email" class="df" required><br><hr><br>
+
+													    <label for="psw" ><h5 class="vc">Grievance Password&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</h5> </label>
+													    <input type="password" class="df" placeholder=" Password" name="psw-repeat" id="psw-repeat" required>
+													    <br><hr><br>
+
+													    <label for="psw-repeat"><h5 class="vc">Email Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></label>
+													    <input type="password" class="df" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br><hr>
+
+													     <label for="psw-repeat"><h5 class="vc">Description&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</h5></label>
+													   <textarea id="w3review" class="io" placeholder="add to Description" name="w3review" rows="2" cols="25"></textarea><br><br><br>
+                             
+                            <input type="reset" class="btn em" value="RESET"> 
+                            
+
+                            <input type="submit" class="btn jb" value="SUBMIT"> 
+                            
+											    
+												
+											</div>
+										</div>
+								</div>
+
+
+
+
+
+
+
+
+
+
+
+
+								<div id="Upload Grievance Document" class="tabcontent">
+								       <div class="qq">
+										<h6 class="xx"><i class="fa fa-share" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;Upload Grievance Document</h6>
+										<div class="ll">
+
+                  
+
+
+											  
+											        <label for="email"><h5 class="gg">Register Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</h5> </label>
+													    <input type="text" placeholder="Enter Email" name="email" id="email" class="df" required><br><br>
+
+													    <label for="psw" ><h5 class="gg">Grievance Password&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</h5> </label>
+													    <input type="password" class="df" placeholder=" Password" name="psw-repeat" id="psw-repeat" required>
+													    <br><br>
+
+													    <label for="psw" ><h5 class="gg">Mobile Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</h5> </label>
+													    <input type="password" class="df" placeholder=" Password" name="psw-repeat" id="psw-repeat" required>
+													    <br><br>
+
+			                           <form action="/action_page.php" >
+														 <h5 class="qwe gg">Upload Photo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input class="wer " type="file" id="myFile" name="filename">
+														  </h5></form><br>
+													    
+														 
+														  <form action="/action_page.php" >
+														 <h5 class="qwe gg">Upload Signature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input class="wer " type="file" id="myFile" name="filename">
+														  </h5></form><br>
+
+
+                              <input type="submit" class="btn em" value="SUBMIT"> 
+														 
+														
+
+
+
+
+
+
+													    
+                             
+                            
+                            
+											    
+												
+											</div>
+										</div>
+
+								</div>
+
+
+
+
+
+
+
+
+
+
+							
+       		 </div><br><br>
+         <div class=" p pt-3 pb-3">
+         	<div class="container">
+       		Copyright © 2019. All rights reserved. Designed and Developed by BBM IT SOLUTION New Delhi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope-o" aria-hidden="true"></i> support-gms[at]epfindia[dot]gov[dot]in 
+        </div>
+        </div>
+	                
+	                	
+	                
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
